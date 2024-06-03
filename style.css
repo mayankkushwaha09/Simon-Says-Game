@@ -1,0 +1,46 @@
+body {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+}
+
+.box {
+  border: 2px solid black;
+  border-radius: 20%;
+  width: 200px;
+  height: 200px;
+  margin: 2rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.red {
+  background: lightcoral;
+}
+
+.yellow {
+  background: orange;
+}
+
+.green {
+  background: green;
+}
+
+.purple {
+  background: plum;
+}
+
+.flash{
+    background: #fff;
+}
+
+@media screen and (max-width: 480px) {
+  .box{
+    width: 100px;
+    height: 100px;
+  }
+  
+}
